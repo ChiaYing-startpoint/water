@@ -1,0 +1,64 @@
+// 色彩
+$pri-yellow: #FBC950;
+$pri-green: #59D69A;
+$pri-orange: #FFA55C;
+$pri-red: #FF7974;
+$pri-blue: #5EBDFF;
+$pri-dark-blue: #6175BA;
+$pri-pink: #F789AD;
+$body-dark: #25252B;
+
+*,
+*::after,
+*::before {
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: $body-dark;
+}
+
+a {
+    text-decoration: none;
+}
+
+select,input,textarea,.top{
+    cursor: pointer;
+}
+
+// 圖片處理
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+// 背景圖片固定
+.bg-attachment-fixed{
+    background-attachment: fixed;
+}
+//讓圖片置入像背景圖展現
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.container {
+    // border: 1px solid black !important;
+}
+//標題前的長方體
+.h3-custom{
+    position: relative;
+    margin-left: 24px;
+
+}
+.h3-custom::before{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 32px;
+    background: $primary;
+    position: absolute; 
+    left: -24px;
+    top: 55%;
+    transform: translateY(-50%);
+}

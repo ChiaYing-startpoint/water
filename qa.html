@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問與答</title>
+    <link rel="stylesheet" href="./scss/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- 表頭開始 -->
+    <header class="index-header bg-white d-flex justify-content-between align-items-center py-3 ">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-2">
+                    <h1 class="mb-0"><a href="index.html">環境保護局</a></h1>
+                </div>
+                <div class="col-6">
+                    <ul class="navbar d-flex align-items-center mb-0 ">
+                        <li class=""><a href="about.html" class="p-1">關於我們</a></li>
+                        <li class=""><a href="news.html" class="p-1">公告資訊</a></li>
+                        <li class=""><a href="work.html" class="p-1">業務職掌</a></li>
+                        <li class=""><a href="quality.html" class="p-1">水質現況</a></li>
+                        <li class=""><a href="educate.html" class="p-1">教育宣導</a></li>
+                        <li><a href="qa.html" class="py-1">問與答</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+        <!-- 左側選單內容開始 -->
+        <aside class="aside">
+            <div class="bg-info">
+                <div class="container bg-transparent ">
+                    <ul class="px-6 pt-6 pb-10 mb-0  bg-transparent">
+                        <li><a href="about.html" class="">關於我們<i class="bi bi-chevron-right"></i></a></li>
+                        <li><a href="news.html">公告資訊<i class="bi bi-chevron-right"></i></a></li>
+                        <li><a href="work.html">業務職掌<i class="bi bi-chevron-right"></i></a></li>
+                        <li><a href="quality.html">水質現況<i class="bi bi-chevron-right"></i></a></li>
+                        <li><a href="educate.html">教育宣導<i class="bi bi-chevron-right"></i></a></li>
+                        <li><a href="qa.html">問與答<i class="bi bi-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <!-- 左側選單內容結束 -->
+    </header>
+    <!-- 表頭結束 -->
+    <!-- 漢堡選單開始 -->
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <!-- 漢堡選單結束 -->
+    <!-- banner開始 -->
+    <div class="qa-banner banner-top py-72 bg-cover">
+        <div class="container text-center">
+            <h2 class="mb-0 text-white">問與答</h2>
+        </div>
+    </div>
+    <!-- banner結束 -->
+    <main class="pb-9 pb-lg-100 pt-4">
+        <div class="container">
+            <!-- 麵包屑開始 -->
+            <nav aria-label="breadcrumb ">
+                <ol class="breadcrumb mb-9">
+                    <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">問與答</li>
+                </ol>
+            </nav>
+            <!-- 麵包屑結束 -->
+            <!-- 內文開始 -->
+            <section class="news-content">
+                <div class="row">
+                    <div class="col-lg-3 order-2 order-lg-1 pe-xl-8">
+                        <div class="list-group sticky-top" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home"
+                                role="tab" aria-controls="list-home">所有問題</a>
+                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile"
+                                role="tab" aria-controls="list-profile">定檢篇</a>
+                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                                href="#list-messages" role="tab" aria-controls="list-messages">許可篇</a>
+                        </div>
+                    </div>
+                    <div class="col order-lg-2 mb-9 mb-lg-0">
+                        <div class="tab-content" id="nav-tabContent">
+                            <!-- 1所有. -->
+                            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                <div class="accordion" id="accordionExample">
+                                    <!-- 1. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header " id="headingOne">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】一年檢測一次的特定水質二，申報期間是否有固定要在上半年或下半年？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingTwo">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】業者採行回收使用或委託處理，其貯留或委託處理之廢(污)水的檢測頻率為何？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingThree">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】定檢申請期間，無廢水產出，如何申報？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 4 -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingFour">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】工廠名稱／負責人異動或工廠合併應如何辦理？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 5 -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingFive">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】事業辦理水措變更若有涉及工程者，辦理變更程序該如何申請？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 6. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingSix">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】一年檢測一次的特定水質二，申報期間是否有固定要在上半年或下半年？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 7. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingSeven">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】業者採行回收使用或委託處理，其貯留或委託處理之廢(污)水的檢測頻率為何？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 8. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingEight">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】定檢申請期間，無廢水產出，如何申報？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 9 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header border-top" id="headingNine">
+                                            <button class="accordion-button px-3 px-md-5  collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】工廠名稱／負責人異動或工廠合併應如何辦理？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 2.定檢 -->
+                            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                                <div class="accordion" id="accordionExample">
+                                    <!-- 1. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header " id="headingOne">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】一年檢測一次的特定水質二，申報期間是否有固定要在上半年或下半年？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingTwo">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】業者採行回收使用或委託處理，其貯留或委託處理之廢(污)水的檢測頻率為何？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingThree">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】定檢申請期間，無廢水產出，如何申報？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 4 -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingFour">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】工廠名稱／負責人異動或工廠合併應如何辦理？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 5 -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingFive">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】事業辦理水措變更若有涉及工程者，辦理變更程序該如何申請？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 6. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingSix">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】一年檢測一次的特定水質二，申報期間是否有固定要在上半年或下半年？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 7. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingSeven">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【定檢篇】業者採行回收使用或委託處理，其貯留或委託處理之廢(污)水的檢測頻率為何？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3.許可 -->
+                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                                <div class="accordion" id="accordionExample">
+                                    <!-- 1. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header " id="headingOne">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】一年檢測一次的特定水質二，申報期間是否有固定要在上半年或下半年？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingTwo">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】業者採行回收使用或委託處理，其貯留或委託處理之廢(污)水的檢測頻率為何？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingThree">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】定檢申請期間，無廢水產出，如何申報？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 4 -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingFour">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】工廠名稱／負責人異動或工廠合併應如何辦理？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 5 -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingFive">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】事業辦理水措變更若有涉及工程者，辦理變更程序該如何申請？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 6. -->
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header border-top" id="headingSix">
+                                            <button class="accordion-button px-3 px-md-5 collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                <div class="text-white fw-bold bg-primary px-2 py-1 rounded-pill">Q</div>
+                                                <span class="mx-2">【許可篇】一年檢測一次的特定水質二，申報期間是否有固定要在上半年或下半年？</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p class="mb-0 text-secondary">業者可自行決定於上半年或下半年進行特定水質（二）項目之檢測，並於辦理檢測之當期進行檢測結果之申報。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+            <!-- 內文結束 -->
+        </div>
+    </main>
+    <!-- 表尾開始 -->
+    <footer class="bg-primary pb-7 py-md-100 text-white">
+        <div class="container">
+            <div class="row gy-7">
+                <div class="col-lg-4 order-2 order-md-1">
+                    <section>
+                        <h6 class=" mb-4">環境環保局 土地及水污染防治科</h6>
+                        <p class="mb-0 fw-light"><small>環境環保局 土地及水污染防治科</small></p>
+                        <p class="mb-0 fw-light"><small>地址:100006臺北市中正區中華路一段83號</small></p>
+                    </section>
+                </div>
+                <div class="col-lg-8 order-1 order-md-2">
+                    <div class="d-flex justify-content-between flex-column flex-lg-row">
+                        <section class="footer-navbar">
+                            <a href="about.html">
+                                <h6>關於本站</h6>
+                            </a>
+                            <ul class=" p-0 mb-0">
+                                <li class="mb-1"><a href="about.html"><small>單位簡介</small></a></li>
+                                <li><a href="about.html"><small>人員編制</small></a></li>
+                            </ul>
+                        </section>
+                        <section class="footer-navbar">
+                            <a href="news.html">
+                                <h6>公告資訊</h6>
+                            </a>
+                            <ul class=" p-0 mb-0">
+                                <li class="mb-1"><a href="news.html"><small>最新消息</small></a></li>
+                                <li class="mb-1"><a href="news.html"><small>相關法令</small></a></li>
+                                <li><a href="news.html"><small>活動廣播</small></a></li>
+                            </ul>
+                        </section>
+                        <section class="footer-navbar">
+                            <a href="work.html">
+                                <h6>業務職掌</h6>
+                            </a>
+                            <ul class=" p-0 mb-0">
+                                <li class="mb-1"><a href="work.html"><small>水污染防治</small></a></li>
+                                <li class="mb-1"><a href="work.html"><small>土壤及地下水污染整治</small></a></li>
+                                <li class="mb-1"><a href="work.html"><small>飲用水管理</small></a></li>
+                                <li class="mb-1"><a href="work.html"><small>毒性化學物質管理</small></a></li>
+                                <li><a href="work.html"><small>環境用藥管理</small></a></li>
+                            </ul>
+                        </section>
+                        <section class="footer-navbar">
+                            <a href="quality.html">
+                                <h6 class="">水質現況</h6>
+                            </a>
+                            <ul class=" p-0 mb-0">
+                                <li class="mb-1"><a href="quality.html"><small>河川簡介及污染現況</small></a></li>
+                                <li class="mb-1"><a href="quality.html"><small>水污染列管事業</small></a></li>
+                                <li class="mb-1"><a href="quality.html" class="fw-lighter"><small>河川品質監測</small></a></li>
+                                <li class="mb-1"><a href="quality.html"><small>水庫水質監測</small></a></li>
+                                <li><a href="quality.html"><small>廢污水連線監測</small></a></li>
+                            </ul>
+                        </section>
+                        <section class="footer-navbar">
+                            <a href="educate.html">
+                                <h6>教育宣導</h6>
+                            </a>
+                            <ul class=" p-0 mb-0">
+                                <li class="mb-1"><a href="educate.html"><small>水股</small></a></li>
+                                <li><a href="educate.html"><small>毒股</small></a></li>
+                            </ul>
+                        </section>
+                    </div>
+    
+                </div>
+            </div>
+            <!-- 至頂按鈕開始 -->
+            <div class="top">
+                <i class="bi bi-arrow-up-circle-fill"></i>
+            </div>
+            <!-- 至頂按鈕結束 -->
+        </div>
+    </footer>
+    <nav class="nav-reserved bg-dark text-white py-7">
+        <div class="container">
+            <p class="text-center mb-0"><small>© Environmental Protection Bureau Inc. All Rights Reserved.</small></p>
+        </div>
+    </nav>
+    <!-- 表尾結束 -->
+    
+    
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/all.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

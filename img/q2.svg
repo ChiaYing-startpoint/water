@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63" data-name="Rectangle 63" width="80" height="80" transform="translate(920 3240)" fill="#3e3e3e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-920 -3240)" clip-path="url(#clip-path)">
+    <path id="chart-bar-solid" d="M52,50h6a2.151,2.151,0,0,0,2-2V27a2.151,2.151,0,0,0-2-2H52a2.151,2.151,0,0,0-2,2V48A2.151,2.151,0,0,0,52,50Zm15,0h6a2.151,2.151,0,0,0,2-2V12a2.151,2.151,0,0,0-2-2H67a2.151,2.151,0,0,0-2,2V48A2.151,2.151,0,0,0,67,50ZM22,50h6a2.151,2.151,0,0,0,2-2V37a2.151,2.151,0,0,0-2-2H22a2.151,2.151,0,0,0-2,2V48A2.151,2.151,0,0,0,22,50Zm15,0h6a2.151,2.151,0,0,0,2-2V17a2.151,2.151,0,0,0-2-2H37a2.151,2.151,0,0,0-2,2V48A2.151,2.151,0,0,0,37,50ZM77.5,60H10V12.5A2.5,2.5,0,0,0,7.5,10h-5A2.5,2.5,0,0,0,0,12.5V65a5,5,0,0,0,5,5H77.5A2.5,2.5,0,0,0,80,67.5v-5A2.5,2.5,0,0,0,77.5,60Z" transform="translate(920 3240)" fill="#55a2e5"/>
+  </g>
+</svg>

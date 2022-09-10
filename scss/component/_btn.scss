@@ -1,0 +1,14 @@
+// 按鈕客製
+.btn-custom-sm {
+    width: 300px;
+    @include pad{
+        width: 100% !important;
+    }
+}
+
+.btn-custom-lg {
+    width: 350px;
+    @include pad{
+        width: 100%;
+    }
+}

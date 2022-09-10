@@ -1,0 +1,47 @@
+.index-work {
+    .card {
+        @include pad {
+            height: 180px !important;
+        }
+
+        @include iphone {
+            height: 150px !important;
+        }
+    }
+
+    .card:hover {
+        opacity: .87;
+    }
+}
+
+.index-quality {
+    .card {
+        height: 300px !important;
+    }
+
+    .card:hover {
+        background: $primary;
+
+        h4,
+        p {
+            color: $white  !important;
+        }
+    }
+}
+// 教育宣導開始
+.index-educate {
+
+    //卡片外框
+    .card-body {
+        border-top: 8px solid $warning ;
+        border-bottom: 1px solid $gray-300 ;
+        border-left: 1px solid $gray-300 ;
+        border-right: 1px solid $gray-300 ;
+    }
+    .card li a:hover {
+        border-bottom: 2px solid $warning;
+        background: $info;
+    }
+}
+
+// 教育宣導結束

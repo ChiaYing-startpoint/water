@@ -1,0 +1,196 @@
+// 表頭開始--------------------------------------------------------
+.index-header {
+    .navbar{
+        @include pad{
+            display: none !important;
+        }
+    }
+    .navbar li {
+        a {
+            color: $secondary;
+            position: relative;
+        }
+        a::before{
+            content:'';
+            width: 0%;
+            height: 1px;
+            background:rgba($secondary, 1);
+            display: block;
+            position: absolute;
+            bottom: 0;
+            transition: all .3s;
+        }
+    }
+    .navbar li:hover{
+        a{
+            color: rgba($primary,.6);
+        }
+        a::before{
+            content:'';
+            width: 100%;
+            height: 1px;
+            background:rgba($primary,.6);
+            display: block;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    h1 a {
+        background-image: url('../img/logo.svg');
+        display: block;
+        width: 138px;
+        height: 24px;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+// 表頭結束---------------------------------------------------------------------------------------
+
+
+
+// 表尾開始----------------------------------------------------------------------------------------
+.footer-navbar {
+    h6{
+        @include pad{
+            margin-bottom: 0px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba($white,.5);
+            position: relative;
+            &::after{
+                content: '＞';
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+    li{
+        @include pad{
+            display: none;
+        }
+    }
+    a:hover{
+        border-bottom: 1px solid $white;
+    }
+    a {
+        color: $white;
+        font-weight: 300;
+        
+    }
+}
+.nav-reserved{
+    @include pad{
+        font-size: 12px;
+    }
+}
+footer {
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 48px;
+
+}
+// 表尾結束----------------------------------------------------------------------------------------
+
+
+
+
+// 手機板選單開始-----------------------------------------------------------------------------------
+body {
+    position: relative;
+}
+
+// 左側選單內容開始
+header {
+    @include pad {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1500;
+        height: 56px;
+    }
+}
+
+.aside {
+    background: rgba($primary, 0.6) !important;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    transform: translateX(-100%);
+    z-index: 1400;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    transition: all .5s;
+
+    li a {
+        color: $primary;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid rgba($primary, .1);
+
+    }
+}
+
+.aside.open {
+    //出現選單內容
+    transform: translateX(0%);
+}
+
+// 左側選單內容結束
+
+// 漢堡選單
+@include pad {
+    .hamburger {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 56px;
+        height: 56px;
+        background: $primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: all .5s;
+        z-index: 1600;
+
+        .line {
+            width: 24px;
+            height: 2px;
+            background: white;
+            margin-bottom: 4px;
+            transition: all .5s;
+        }
+
+        &.active {
+            .line {
+                position: absolute;
+                top: 26px;
+            }
+
+            .line:nth-child(1) {
+                transform: rotate(45deg);
+            }
+
+            .line:nth-child(2) {
+                display: none;
+            }
+
+            .line:nth-child(3) {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}
+// 手機選單結束-----------------------------------------------------------------------------------
+

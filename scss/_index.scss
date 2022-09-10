@@ -1,0 +1,87 @@
+// index-banner開始
+
+.circle {
+    width: 234px;
+    height: 234px;
+    border: 16px solid $pri-yellow ;
+    border-radius: 100%;
+}
+
+.pri-color {
+    li {
+        position: relative;
+    }
+
+    li::before {
+        content: "";
+        width: 16px;
+        height: 16px;
+        background: $pri-green;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -20px;
+    }
+
+    li:nth-child(2)::before {
+        background: $pri-yellow;
+    }
+
+    li:nth-child(3)::before {
+        background: $pri-orange;
+    }
+
+    li:nth-child(4)::before {
+        background: $pri-red;
+    }
+}
+
+// index-banner結束
+
+// 公告資訊開始，news.html
+.tab-pane {
+    li:hover {
+        background: rgba($primary, .05);
+    }
+}
+// 公告資訊結束
+
+// 聯絡開始
+.contact {
+    background-image: url('../img/mountain.jpg');
+}
+
+// 聯絡結束
+// 業務職掌開始
+.index-work {
+    .work-item {
+        li:nth-child(1) .card {
+            background: $pri-red;
+        }
+
+        li:nth-child(2) .card {
+            background: $pri-blue;
+        }
+
+        li:nth-child(3) .card {
+            background: $pri-green;
+        }
+
+        li:nth-child(4) .card {
+            background: $pri-pink;
+        }
+
+        li:nth-child(5) .card {
+            background: $pri-dark-blue;
+        }
+    }
+}
+
+// 業務職掌結束
+
+// 認識本科開始
+.department-img {
+    height: 330px;
+}
+
+// 認識本科結束

@@ -1,0 +1,25 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helper/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+
+// 工具類
+@import "./helper/mixin";
+@import "./helper/myVariables";
+
+
+//元件
+@import "./component/banner";
+@import "./component/accordion";
+@import "./component/table";
+@import "./component/btn";
+@import "./component/card";
+
+
+// page
+@import "layout.scss";
+@import "index.scss";
+@import "quality.scss";

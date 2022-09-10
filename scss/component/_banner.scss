@@ -1,0 +1,45 @@
+.index-banner {
+    background-image: url('../img/index-banner.jpg');
+    height: 100vh;
+    @include iphone{
+        background-image: url('../img/m-index-banner.jpg');
+        height: 100vh;
+        background-position: center 20%;
+        .text-white{
+            text-shadow: 1px 1px 1px rgba($primary,.87) ;
+        }
+    }
+   
+
+}
+.news-banner {
+    background-image: url('../img/news-banner.jpg');
+    height: 187px;
+   
+
+}
+.qa-banner{
+    background-image: url('../img/qa-banner.jpg');
+    height: 187px;
+}
+.educate-banner{
+    background-image: url('../img/educate-banner.jpg');
+    height: 187px;
+}
+.work-banner{
+    background-image: url('../img/work-banner.jpg');
+    height: 187px;
+}
+.quality-banner{
+    background-image: url('../img/quality-banner.jpg');
+    height: 187px;
+}
+.about-banner{
+    background-image: url('../img/about-banner.jpg');
+    height: 187px;
+}
+.banner-top{
+    @include pad{
+        margin-top: 56px;
+    }
+}

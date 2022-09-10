@@ -1,0 +1,57 @@
+// index公告資訊
+.index-news{
+    .list-group-item.active {
+        background: $white !important;
+        color: $primary;
+        border: 4px solid $primary !important;
+    }
+}
+
+
+
+
+
+
+//列表選單固定
+.sticky-top {
+    top: 16px;
+}
+//內頁下拉的手風琴
+.educate-content {
+    .accordion-button:not(.collapsed) {
+        background: $primary ;
+        color: $white;
+
+        .bi::before {
+            display: inline-block; //icon改變減號
+            content: "\F63B";
+            vertical-align: -.125em;
+            background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+            background-repeat: no-repeat;
+            background-size: 0rem 0rem;
+        }
+    }
+    .accordion-button{
+        color: $primary;
+        font-weight: 500;
+    }
+    .accordion-button::after { //原本的隱藏
+        display: none;
+    }
+    
+}
+.bi::before {
+    display: inline-block; //icon改變加號
+    content: "\F64D";
+    vertical-align: -.125em;
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 0rem 0rem;
+}
+
+
+// 常見問題列表
+.accordion-button:hover {
+    background: rgba($primary, .05);
+    color: $primary;
+}

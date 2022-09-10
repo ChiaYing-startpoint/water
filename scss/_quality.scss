@@ -1,0 +1,9 @@
+.quality-chart {
+    background-image: url('../img/chart.jpg');
+    height: 375px;
+
+    @include iphone {
+        background-image: url('../img/m-chart.jpg');
+        height: 375px;
+    }
+}
